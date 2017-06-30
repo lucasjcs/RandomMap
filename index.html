@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapa</title>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTPyoQWCsnhmmgy_n-1QBTcTTj-QxNqZk&callback=initMap">
+        <!--voce neve colocar sua chave aqui para funcionar-->
+    </script>
+    <script src="js/mapa.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+<header>
+    <h1>Pontos Relevantes em Cornélio Procópio</h1>
+</header>
+<div id="map"></div>
+<div class="info">
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+            <tr>
+                <td><p id="nome">Carregando...</p></td>
+                <td><p id="lat">Carregando...</p></td>
+                <td><p id="long">Carregando...</p></td>
+        </table>
+</div>
+</body>
+</html>
