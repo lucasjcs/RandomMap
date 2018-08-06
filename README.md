@@ -1,6 +1,6 @@
 # RandomMap
 
-#Neste projeto é listado uma série de lugares a partir de sua latitude e longitude.
+## Neste projeto é listado uma série de lugares a partir de sua latitude e longitude.
 
 Os locais são carregados de um arquivo JSON de modo aleatório.
 
